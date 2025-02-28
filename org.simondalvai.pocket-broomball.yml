@@ -32,7 +32,7 @@ modules:
         sha256: b507dfcadbae631ea3cc19f51d436b3de66569aea987b33b31f07c80abf3b27f
       - type: file
         url: https://raw.githubusercontent.com/dulvui/pocket-broomball/8b8239978c1121241821d6e5029843f25f3dd9cb/flatpak/org.simondalvai.pocket-broomball.appdata.xml
-        sha256: 2858c995e2c4c1429087b28db1bf0985e4ef3be4d810e02984b0536f29f3d310
+        sha256: 369133ce78e0b239c305639219af55f5fe8083b1c3c59b5a4af364ec104aa0f3
       - type: file
         url: https://raw.githubusercontent.com/dulvui/pocket-broomball/668675ca850268a04762681a6f1b4e8ec6b1a4cf/flatpak/icon-256.png
         sha256: 3a4b65463a87de69ea51e970055f6acc2f9e53f9a9c0090cf986556d079b2f0b
