@@ -25,14 +25,14 @@ modules:
       # The game is pulled from GitHub
       - type: archive
         strip-components: 0
-        url: https://github.com/dulvui/pocket-broomball/releases/download/v6.1.1/pocket-broomball.tar.xz
-        sha256: c29b4f417f198a6b0c38ba4bc7ab5a49f59072f86a5a5933f036ade657650756
+        url: https://github.com/dulvui/pocket-broomball/releases/download/v6.1.2/pocket-broomball.tar.xz
+        sha256: 18f5294f883fe2e3282447fa60f0b8426284d73856e0b37acb109429f00b01ec
       - type: file
         url: https://raw.githubusercontent.com/dulvui/pocket-broomball/6ab1e8867424ba9bb96c38f497d679a07122fef5/flatpak/org.simondalvai.pocket-broomball.desktop
         sha256: b507dfcadbae631ea3cc19f51d436b3de66569aea987b33b31f07c80abf3b27f
       - type: file
-        url: https://raw.githubusercontent.com/dulvui/pocket-broomball/8b8239978c1121241821d6e5029843f25f3dd9cb/flatpak/org.simondalvai.pocket-broomball.appdata.xml
-        sha256: 369133ce78e0b239c305639219af55f5fe8083b1c3c59b5a4af364ec104aa0f3
+        url: https://raw.githubusercontent.com/dulvui/pocket-broomball/eb9eedec93f8456184c294c0066180b7db2ab6ab/flatpak/org.simondalvai.pocket-broomball.appdata.xml
+        sha256: edf7a4b6df67db80a8f095d360f37cc450c1ba0390b3be97d1275c55ca09d574
       - type: file
         url: https://raw.githubusercontent.com/dulvui/pocket-broomball/668675ca850268a04762681a6f1b4e8ec6b1a4cf/flatpak/icon-256.png
         sha256: 3a4b65463a87de69ea51e970055f6acc2f9e53f9a9c0090cf986556d079b2f0b
