@@ -1,9 +1,9 @@
 app-id: org.simondalvai.pocket-broomball
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 base: org.godotengine.godot.BaseApp
-base-version: '3.6'
+base-version: '3.6-25.08'
 command: godot-runner
 finish-args:
   - --share=ipc
@@ -17,10 +17,10 @@ modules:
       # The game itself
       - install PocketBroomball.pck /app/bin/godot-runner.pck
       # Metadata and a .desktop file
-      - install -D org.simondalvai.pocket-broomball.desktop /app/share/applications/org.simondalvai.pocket-broomball.desktop
-      - install -D org.simondalvai.pocket-broomball.appdata.xml /app/share/metainfo/org.simondalvai.pocket-broomball.metainfo.xml
+      - install -D ${FLATPAK_ID}.desktop -t /app/share/applications/
+      - install -D ${FLATPAK_ID}.appdata.xml -t /app/share/metainfo/
       # Icons
-      - install -D icon-256.png /app/share/icons/hicolor/256x256/apps/org.simondalvai.pocket-broomball.png
+      - install -D ${FLATPAK_ID}.png -t /app/share/icons/hicolor/256x256/apps/
     sources:
       # The game is pulled from GitHub
       - type: archive
@@ -36,3 +36,4 @@ modules:
       - type: file
         url: https://raw.githubusercontent.com/dulvui/pocket-broomball/668675ca850268a04762681a6f1b4e8ec6b1a4cf/flatpak/icon-256.png
         sha256: 3a4b65463a87de69ea51e970055f6acc2f9e53f9a9c0090cf986556d079b2f0b
+        dest-filename: org.simondalvai.pocket-broomball.png
